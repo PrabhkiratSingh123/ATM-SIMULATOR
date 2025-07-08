@@ -25,15 +25,25 @@ An interactive, user-friendly **ATM Simulator Web App** designed to mimic the fu
 
 ## 📁 Project Structure
 ATM-SIMULATOR/
+
 ├── index.html # Main page
+
 ├── static/
+
 │ ├── style.css # Styling
+
 │ └── script.js # Logic and interactivity
+
 ├── templates/ # (if Flask-based)
+
 │ └── index.html
+
 ├── app.py # Flask backend (optional)
+
 ├── requirements.txt # Python dependencies
+
 ├── Procfile # For Render deployment
+
 └── README.md # This file
 
 ---
