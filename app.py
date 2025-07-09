@@ -156,6 +156,10 @@ def withdraw():
 
     else:
         return jsonify({"status": "error", "message": "Unable to break amount into available denominations"})
+        
+@app.route('/health')
+def health():
+    return "OK", 200
 
 if __name__ == '__main__':
     import os
